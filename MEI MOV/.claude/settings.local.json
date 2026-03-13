@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b \"c:\\\\Users\\\\vipuser\\\\Documents\\\\MEI MOV\")",
+      "Bash(python model.py)",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" \"c:/Users/vipuser/Documents/MEI MOV/model.py\")",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" \"c:/Users/vipuser/Documents/MEI MOV/dataset.py\")",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" \"c:/Users/vipuser/Documents/MEI MOV/utils.py\")",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" \"c:/Users/vipuser/Documents/MEI MOV/train.py\" --epochs 10 --n_neurons 20 --batch_size 16)",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" \"c:/Users/vipuser/Documents/MEI MOV/train.py\" --epochs 5 --n_neurons 20 --batch_size 16)",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" \"c:/Users/vipuser/Documents/MEI MOV/train.py\" --epochs 5 --n_neurons 50 --batch_size 16)",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" -m py_compile \"c:/Users/vipuser/Documents/MEI MOV/dataset.py\")",
+      "Bash(\"C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe\" -m py_compile \"c:/Users/vipuser/Documents/MEI MOV/run_training.py\")",
+      "Bash(where python)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -m py_compile run_training.py)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -m py_compile dataset.py)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -m py_compile model.py)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -m py_compile utils.py)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -c \":*)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -m py_compile train.py)",
+      "Bash(python -m py_compile dataset.py)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -m py_compile train.py run_training.py)",
+      "Bash(sed -n '1,20p' model.py)",
+      "Bash(sed -n '165,$p' model.py)",
+      "Bash(mv model_fixed.py model.py)",
+      "Bash(xxd)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe generate_mei.py)",
+      "Bash(python -c \":*)",
+      "Bash(C:/Users/vipuser/anaconda3/envs/chatgpt/python.exe -m py_compile \"c:\\\\Users\\\\vipuser\\\\Documents\\\\MEI MOV\\\\generate_three_phase_comparison.py\")"
+    ]
+  }
+}

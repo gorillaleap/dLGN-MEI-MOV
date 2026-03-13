@@ -1,0 +1,145 @@
+name: chatgpt
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python 基础环境
+  - python=3.11.5
+
+  # FFmpeg（视频保存底层依赖）
+  - ffmpeg
+
+  # PyTorch 核心套件（CUDA 12.1）
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - pytorch-cuda=12.1
+
+  # 核心科学计算包
+  - numpy=1.26.4
+  - scipy=1.17.1
+  - pandas=2.1.2
+  - matplotlib=3.8.1
+  - pillow=10.1.0
+  - h5py=3.15.1
+
+  # 其他 conda 可安装的常用依赖
+  - pip
+  - setuptools
+  - wheel
+
+  # Pip 安装的包
+  - pip:
+      # AI/ML 框架
+      - transformers==4.35.0
+      - tokenizers==0.14.1
+      - safetensors==0.4.0
+      - huggingface-hub==0.17.3
+
+      # API 客户端
+      - openai==0.28.1
+      - anthropic==0.5.0
+      - tiktoken==0.5.1
+
+      # Web 框架与 UI
+      - gradio==3.32.0
+      - gradio-client==0.7.0
+      - fastapi==0.104.1
+      - uvicorn==0.23.2
+      - starlette==0.27.0
+
+      # 数据处理
+      - beautifulsoup4==4.12.2
+      - lxml==4.9.3
+      - openpyxl==3.1.5
+      - python-docx==1.0.1
+      - pymupdf==1.23.5
+      - pypdf2==2.12.1
+
+      # 网络请求
+      - requests==2.31.0
+      - aiohttp==3.8.6
+      - httpx==0.25.0
+      - httpcore==0.18.0
+      - websockets==11.0.3
+      - websocket-client==1.6.4
+
+      # NLP 相关
+      - spacy==3.7.2
+      - spacy-legacy==3.0.12
+      - spacy-loggers==1.0.5
+      - scipdf-parser==0.42
+
+      # 工具库
+      - tqdm==4.66.1
+      - click==8.1.7
+      - rich==13.6.0
+      - pyyaml==6.0.1
+      - python-dateutil==2.8.2
+      - pytz==2023.3.post1
+      - packaging==23.2
+      - filelock==3.13.1
+      - fsspec==2023.10.0
+      - regex==2023.10.3
+      - colorama==0.4.6
+
+      # 数据验证
+      - pydantic==2.12.5
+      - pydantic-core==2.41.5
+      - annotated-types==0.7.0
+
+      # 可视化
+      - pyecharts==2.1.0
+      - altair==5.1.2
+
+      # 音频处理
+      - pydub==0.25.1
+      - ffmpy==0.3.1
+
+      # Markdown/文档
+      - markdown==3.5.1
+      - markdown-it-py==2.2.0
+      - mdtex2html==1.2.0
+      - pygments==2.16.1
+
+      # 科学/学术
+      - arxiv==2.0.0
+      - feedparser==6.0.10
+      - textstat==0.7.3
+      - sympy==1.13.1
+
+      # 监控/实验
+      - swanlab==0.7.10
+      - psutil==7.2.2
+
+      # 其他依赖
+      - aiofiles==23.2.1
+      - anyio==3.7.1
+      - certifi==2023.7.22
+      - charset-normalizer==3.3.2
+      - contourpy==1.1.1
+      - cycler==0.12.1
+      - fonttools==4.43.1
+      - idna==3.4
+      - jinja2==3.1.2
+      - jsonschema==4.19.2
+      - kiwisolver==1.4.5
+      - markupsafe==2.1.3
+      - mpmath==1.3.0
+      - networkx==3.6.1
+      - orjson==3.9.10
+      - platformdirs==4.9.4
+      - prettytable==3.17.0
+      - prompt-toolkit==3.0.39
+      - protobuf==6.33.5
+      - pyparsing==3.1.1
+      - python-multipart==0.0.6
+      - sniffio==1.3.0
+      - toolz==0.12.0
+      - typer==0.9.0
+      - typing-extensions==4.15.0
+      - urllib3==2.0.7
+      - wcwidth==0.2.9
