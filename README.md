@@ -10,6 +10,7 @@
 [English](README_EN.md) | 简体中文
 
 ---
+![final_mei](https://github.com/user-attachments/assets/91b6b640-3289-4866-9162-1df95e021e01)
 
 ## 目录
 
